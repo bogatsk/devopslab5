@@ -7,3 +7,4 @@ WORKDIR /app
 COPY src ./src
 
 ENTRYPOINT [ "python", "-m", "src.main" ]
+
