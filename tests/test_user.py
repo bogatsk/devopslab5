@@ -48,3 +48,4 @@ def test_delete_user():
     '''Удаление пользователя'''
     response = client.delete("/api/v1/user", params={"email": users[0]["email"]})
     assert response.status_code == 204
+
